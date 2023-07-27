@@ -3,3 +3,9 @@
     <view class="row">ikun©{{time}}</view>
     <view class="row">唱、跳、rap、篮球</view>
 </view>
+
+<view class="service">
+    <button open-type="contact">1</button>
+    <image src="/static/imgs/footer/service.png" mode="aspectFill"/>
+    <view class="line"></view>
+</view>

@@ -1,9 +1,64 @@
 .footer{
-    padding: 40rpx 0;
+    padding: 30rpx 0;
     text-align: center;
     font-size: 28rpx;
     line-height: 1.6em;
     color: var(--garyColor);
     background: #f6f7f8;
     box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3), 0 1px 3px 5px rgba(60,64,67,0.15);
+    .row{
+        margin: 10rpx 0;
+    }
+}
+
+.service{
+    position: fixed;
+    bottom: 120rpx;
+    right: 70rpx;
+    width: 100rpx;
+    height: 100rpx;
+    background: var(--mainColor);
+    border-radius: 50%;
+    box-shadow: 0 0 30rpx rgba(0,174,236, 1);
+    button{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 5;
+        border-radius: 50%;
+        opacity: 0;
+    }
+    image{
+        width: 84%;
+        height: 84%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .line{
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        border: 3rpx solid rgba(0,174,236, 1);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 50%;
+        animation: emit 1s infinite;
+    }
+
+    @keyframes emit {
+        0%{}
+        100%{
+            border: 1rpx;
+            opacity: 0;
+            transform: scale(1.5);  
+        }        
+    }
 }
