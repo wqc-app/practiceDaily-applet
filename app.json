@@ -37,6 +37,7 @@
     ]
   },
   "usingComponents": {
-      "self-header" : "/components/self-header/self-header"
+      "self-header" : "/components/self-header/self-header",
+      "self-news-item" : "/components/self-news-item/self-news-item"
   }
 }

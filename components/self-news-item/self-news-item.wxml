@@ -1,0 +1,24 @@
+<view class="item">
+    <view class="pic">
+        <image src="/static/imgs/ikun.jpg" mode="aspectFill"/>
+    </view>
+    <view class="text">
+        <view class="title">
+            大家好，我是练习两年半的ikun，擅长唱、跳、rap!1111111111111aaa1111111111111aaa1111111111111aaa1111111111111aaa1111111111111aaa1111111111111aaa
+        </view>
+        <view class="relation">
+            <view class="time">
+                <image src="/static/imgs/news/time-circle.png" mode="aspectFill"/>
+                <view>2023-01-01</view>
+            </view>
+            <view class="browse">
+                <image src="/static/imgs/news/eye.png" mode="aspectFill"/>
+                <view>999</view>
+            </view>
+            <view class="author">
+                <image src="/static/imgs/news/user.png" mode="aspectFill"/>
+                <view>ikun</view>
+            </view>
+        </view>
+    </view>
+</view>
