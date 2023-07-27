@@ -1,9 +1,0 @@
-.footer {
-  padding: 40rpx 0;
-  text-align: center;
-  font-size: 28rpx;
-  line-height: 1.6em;
-  color: var(--garyColor);
-  background: #f6f7f8;
-  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 5px rgba(60, 64, 67, 0.15);
-}
