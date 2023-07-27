@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/news/news"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00aeec",
+    "navigationBarTitleText": "练习",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+      "color": "#707070",
+      "selectedColor": "#00aeec",
+      "list": [
+        {
+            "pagePath": "pages/index/index",
+            "text": "首页",
+            "iconPath": "static/imgs/tabBar/home.png",
+            "selectedIconPath": "static/imgs/tabBar/home-fill.png"
+        },
+        {
+            "pagePath": "pages/classify/classify",
+            "text": "分类",
+            "iconPath": "static/imgs/tabBar/store.png",
+            "selectedIconPath": "static/imgs/tabBar/store-fill.png"
+        },
+        {
+            "pagePath": "pages/news/news",
+            "text": "资讯",
+            "iconPath": "static/imgs/tabBar/message.png",
+            "selectedIconPath": "static/imgs/tabBar/message-fill.png"
+        }
+    ]
+  },
+  "usingComponents": {
+      "self-header" : "/components/self-header/self-header"
+  }
+}

@@ -1,0 +1,46 @@
+
+<self-header></self-header>
+
+<view class="banner">
+    <swiper 
+    indicator-dots 	
+    indicator-color="rgba(255, 255, 255, .3)" 	
+    indicator-active-color="#00aeec" 
+    autoplay
+    interval="3000"
+    duration="300"
+    circular
+    >
+        <swiper-item>
+            <image src="/static/imgs/ikun.jpg" mode="aspectFill" />
+        </swiper-item>
+        <swiper-item>
+            <image src="/static/imgs/ikun.jpg" mode="aspectFill"/>
+        </swiper-item>
+        <swiper-item>
+            <image src="/static/imgs/ikun.jpg" mode="aspectFill"/>
+        </swiper-item>
+    </swiper>
+</view>
+
+<view class="scrollNav">
+    <scroll-view  scroll-x>
+        <view class="item" wx:for="{{10}}">
+            <view class="pic"><image src="/static/imgs/ikun.jpg" mode=""/></view>
+            <view class="name">ikun-{{index + 1}}</view>
+        </view>
+    </scroll-view>
+</view>
+
+<view class="about">
+    <view class="publicTitle">
+        <view class="en">PracticeDaily</view>
+        <view class="cn">每天8小时练习</view>
+        <view class="line"></view>
+    </view>
+    <view class="content">
+        <view class="row">唱，有节奏的音调发出美妙的声音，给人以享受。也指吟唱歌曲。也指歌唱艺术</view>
+        <view class="row">跳，随音乐按照有节奏的步伐而移动，或者单独一个人，或者带一个舞伴，或者以集体形式，是为了好看或是追求某种涵意</view>
+        <view class="row">rap，即兴饶舌就是一群人或一个人，然后进行说唱，第1步. 一个简单的开始、第2步. 不要停嘴、第3步. 压韵、第4步. 在背景节奏上说唱，或是在任何情况下说唱、第5步. 在说唱中谈论你身边的事物(电影桥段的小故事看了就当放松，看到什么说什么)、第6步. 用比喻(多学好语文，注意修辞手法)、　第7步. 谈论当前时局(没的说就走现实路线)、第8步. Cipher、第9步. 多听些经典的hip hop从中学习.、第10步. 练习</view>
+    </view>
+</view>

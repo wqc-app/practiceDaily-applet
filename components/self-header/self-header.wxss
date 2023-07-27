@@ -1,0 +1,23 @@
+.header {
+  border: 1px solid var(--mainColor);
+  border-left: 0;
+  border-right: 0;
+  padding: 26rpx 30rpx;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.header .logo {
+  height: 80rpx;
+}
+
+.header .title {
+  font-size: 24rpx;
+  margin-left: 20rpx;
+}
+
+.header .search {
+  height: 60rpx;
+  margin-left: auto;
+}

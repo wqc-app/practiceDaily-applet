@@ -1,0 +1,4 @@
+page{
+    --mainColor : #00aeec;
+    --fontColor : #1a1b1c;
+}

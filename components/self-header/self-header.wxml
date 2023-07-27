@@ -1,0 +1,5 @@
+<view class="header">
+    <image class="logo" src="/static/imgs/ikun.jpg" mode="heightFix" bindtap="jumpHome"/>
+    <view class="title">每天8小时练习</view>
+    <image class="search" src="/static/imgs/search.png"  mode="heightFix"/>
+</view>
