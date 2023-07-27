@@ -5,7 +5,7 @@
 </view>
 
 <view class="service">
-    <button open-type="contact" bindcontact="handleContact">1</button>
+    <button open-type="contact">1</button>
     <image src="/static/imgs/footer/service.png" mode="aspectFill"/>
     <view class="line"></view>
 </view>
