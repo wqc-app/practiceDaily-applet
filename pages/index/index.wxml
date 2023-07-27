@@ -1,6 +1,7 @@
 
 <self-header></self-header>
 
+
 <view class="banner">
     <swiper 
     indicator-dots 	

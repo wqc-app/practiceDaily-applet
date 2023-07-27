@@ -1,8 +1,9 @@
 .header{
-    border: 1px solid var(--mainColor);
-    border-left: 0;
-    border-right: 0;
-    padding: 26rpx 30rpx;
+    // border: 1px solid var(--mainColor);
+    // border-left: 0;
+    // border-right: 0;
+    box-shadow: 2px 4px 8px -4px rgba(0,0,0,0.2);
+    padding: 20rpx 30rpx;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -14,7 +15,6 @@
         margin-left: 20rpx;
     }
     .search{
-        height: 60rpx;
         margin-left: auto;
     }
 }
