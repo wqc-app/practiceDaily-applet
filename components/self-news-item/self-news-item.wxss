@@ -41,17 +41,15 @@
   color: gray;
 }
 
-.item .text .relation image {
-  width: 24rpx;
-  height: 24rpx;
-}
-
 .item .text .relation .time, .item .text .relation .browse, .item .text .relation .author {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--garyColor);
 }
 
-.item .text .relation .time image, .item .text .relation .browse image, .item .text .relation .author image {
+.item .text .relation .time van-icon, .item .text .relation .browse van-icon, .item .text .relation .author van-icon {
   margin-right: 6rpx;
+  color: var(--garyColor);
+  font-size: 24rpx;
 }

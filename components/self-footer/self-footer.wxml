@@ -1,0 +1,5 @@
+<view class="footer">
+    <view class="row">解释权归ikun所有</view>
+    <view class="row">ikun©{{time}}</view>
+    <view class="row">唱、跳、rap、篮球</view>
+</view>

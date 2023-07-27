@@ -17,4 +17,6 @@
 
 .header .search {
   margin-left: auto;
+  color: var(--mainColor);
+  font-size: 50rpx;
 }

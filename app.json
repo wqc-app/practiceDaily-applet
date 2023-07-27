@@ -38,6 +38,7 @@
   "usingComponents": {
       "self-header" : "/components/self-header/self-header",
       "self-news-item" : "/components/self-news-item/self-news-item",
+      "self-footer" : "/components/self-footer/self-footer",
       "van-icon": "@vant/weapp/icon/index"
   }
 }

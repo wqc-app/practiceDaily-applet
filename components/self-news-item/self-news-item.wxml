@@ -8,15 +8,15 @@
         </view>
         <view class="relation">
             <view class="time">
-                <image src="/static/imgs/news/time-circle.png" mode="aspectFill"/>
+                <van-icon name="clock-o" />
                 <view>2023-01-01</view>
             </view>
             <view class="browse">
-                <image src="/static/imgs/news/eye.png" mode="aspectFill"/>
+                <van-icon name="eye-o" />
                 <view>999</view>
             </view>
             <view class="author">
-                <image src="/static/imgs/news/user.png" mode="aspectFill"/>
+                <van-icon name="user-o" />
                 <view>ikun</view>
             </view>
         </view>

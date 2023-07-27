@@ -29,19 +29,18 @@
         }
         .relation{
             display: flex;
-            justify-content: space-between;;
+            justify-content: space-between;
             font-size: 24rpx;
             color: gray;
-            image{
-                width: 24rpx;
-                height: 24rpx;
-            }
             .time, .browse , .author{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                image{
+                color: var(--garyColor);
+                van-icon{
                     margin-right: 6rpx;
+                    color: var(--garyColor);
+                    font-size: 24rpx;
                 }
             }
         }
