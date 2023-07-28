@@ -1,23 +1,23 @@
 <view class="item">
     <view class="pic">
-        <image src="/static/imgs/ikun.jpg" mode="aspectFill"/>
+        <image src="{{news.picurl}}" mode="aspectFill"/>
     </view>
     <view class="text">
         <view class="title">
-            大家好，我是练习两年半的ikun，擅长唱、跳、rap!1111111111111aaa1111111111111aaa1111111111111aaa1111111111111aaa1111111111111aaa1111111111111aaa
+            {{news.title}}
         </view>
         <view class="relation">
             <view class="time">
                 <van-icon name="clock-o" />
-                <view>2023-01-01</view>
+                <view>{{news.publish_date}}</view>
             </view>
             <view class="browse">
                 <van-icon name="eye-o" />
-                <view>999</view>
+                <view>{{news.view_count}}</view>
             </view>
             <view class="author">
                 <van-icon name="user-o" />
-                <view>ikun</view>
+                <view>{{news.author}}</view>
             </view>
         </view>
     </view>

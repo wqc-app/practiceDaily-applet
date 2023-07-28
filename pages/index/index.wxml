@@ -26,9 +26,9 @@
 
 <view class="scrollNav">
     <scroll-view  scroll-x>
-        <view class="item" wx:for="{{10}}">
-            <view class="pic"><image src="/static/imgs/ikun.jpg" mode=""/></view>
-            <view class="name">ikun-{{index + 1}}</view>
+        <view class="item" wx:for="{{NavList}}" wx:key="_id" >
+            <view class="pic"><image src="{{item.icon}}" mode=""/></view>
+            <view class="name">{{item.classname}}</view>
         </view>
     </scroll-view>
 </view>
@@ -53,8 +53,8 @@
         <view class="line"></view>
     </view>
     <view class="content">
-        <view class="contentRow" wx:for="{{3}}">
-            <self-news-item></self-news-item>
+        <view class="contentRow">
+            <self-news-item wx:for="{{newList}}" wx:key="_id" news="{{item}}"></self-news-item>
         </view>
     </view>
 </view>
