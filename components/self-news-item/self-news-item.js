@@ -29,6 +29,10 @@ Component({
      * 组件的方法列表
      */
     methods: {
-
+        jumpDetail(e){
+            console.log('jump detail' ,e);
+            console.log('id' , e.currentTarget.dataset.id);
+            
+        }
     }
 })
