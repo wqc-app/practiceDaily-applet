@@ -1,1 +1,4 @@
 <self-header></self-header>
+<view class="content">
+    <self-news-item wx:for="{{newList}}" wx:key="_id" news="{{item}}"></self-news-item>
+</view>
