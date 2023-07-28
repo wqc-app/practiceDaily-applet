@@ -6,7 +6,7 @@
         width: 240rpx;
         height: 160rpx;
         flex-shrink: 0;
-        image{
+        .img{
             width: 100%;
             height: 100%;
         }
@@ -37,7 +37,7 @@
                 justify-content: center;
                 align-items: center;
                 color: var(--garyColor);
-                van-icon{
+                .van-icon{
                     margin-right: 6rpx;
                     color: var(--garyColor);
                     font-size: 24rpx;

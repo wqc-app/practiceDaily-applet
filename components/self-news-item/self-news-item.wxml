@@ -1,6 +1,6 @@
 <view class="item">
     <view class="pic">
-        <image src="{{news.picurl}}" mode="aspectFill"/>
+        <image class="img" src="{{news.picurl}}" mode="aspectFill"/>
     </view>
     <view class="text">
         <view class="title">
@@ -8,15 +8,15 @@
         </view>
         <view class="relation">
             <view class="time">
-                <van-icon name="clock-o" />
+                <van-icon class="van-icon" name="clock-o" />
                 <view>{{news.publish_date}}</view>
             </view>
             <view class="browse">
-                <van-icon name="eye-o" />
+                <van-icon class="van-icon" name="eye-o" />
                 <view>{{news.view_count}}</view>
             </view>
             <view class="author">
-                <van-icon name="user-o" />
+                <van-icon class="van-icon" name="user-o" />
                 <view>{{news.author}}</view>
             </view>
         </view>
