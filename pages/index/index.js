@@ -49,7 +49,12 @@ Page({
 
     // 获取最新动态数据
     getNewsData() {
-        getNewsDataRequest().then(res => {
+        let data = {
+            "limit": 3, //获取多少个
+            "size": 0, //分页（过滤的个数）
+            "hot": true //是否是推荐的文章
+        }
+        getNewsDataRequest(data).then(res => {
             console.log('getNewsData', res);
             let list = res.data.data;
             list.forEach(item => {

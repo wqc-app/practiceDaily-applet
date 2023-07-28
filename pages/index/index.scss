@@ -80,6 +80,7 @@
 
 .about{
     position: relative;
+    margin-top: 40rpx;
     padding: 40rpx 20rpx;
     .content{
         margin: 30rpx 0;
@@ -101,5 +102,9 @@
 }
 
 .news{
+    margin-top: 50rpx;
     padding: 40rpx 20rpx;
+    .content{
+        margin-top: 30rpx;
+    }
 }
