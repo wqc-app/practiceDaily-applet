@@ -1,3 +1,11 @@
 .content{
     padding: 40rpx 20rpx;
 }
+.loading{
+    text-align: center;
+    padding-bottom: 40rpx;
+    .noData{
+        font-size: 30rpx;
+        color: gray;
+    }
+}
