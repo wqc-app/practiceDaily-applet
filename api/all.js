@@ -17,3 +17,11 @@ export function getNewsDataRequest(data) {
         data
     });
 }
+
+export function getNewsDetailDataRequest(data) {
+    return request({
+        url: '/news/detail',
+        method: "post",
+        data
+    });
+}

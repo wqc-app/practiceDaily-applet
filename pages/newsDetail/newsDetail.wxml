@@ -1,2 +1,36 @@
-<!--pages/newsDetail/newsDetail.wxml-->
-<text>pages/newsDetail/newsDetail.wxml</text>
+
+<view style="margin-top: 30rpx;" wx:if="{{loading}}">
+    <van-skeleton title row="3" />
+</view>
+
+<view class="detail" wx:else>
+    <view class="title">{{title}}</view>
+    <view class="relation">
+        <view class="left">
+            <view class="time">
+                <van-icon class="van-icon" name="clock-o" />
+                {{publish_date}}
+            </view>
+            <view class="author">
+                <van-icon class="van-icon" name="user-o" />
+                {{author}}
+            </view>
+            <view class="browse">
+                <van-icon class="van-icon" name="eye-o" />
+                {{view_count}}
+            </view>
+        </view>
+        <view class="right">
+            <van-icon name="share-o" />
+            <view class="share">分享</view>
+            <button class="shareBtn" open-type="share"></button>
+        </view>
+    </view>
+    <view class="content">
+        <rich-text nodes="{{content}}"></rich-text> 
+    </view>
+    <view class="statement">
+        <view class="title">免责声明</view>
+        <view class="content">小程序用于学习和交流，不涉及商用！</view>
+    </view>
+</view>

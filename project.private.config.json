@@ -4,5 +4,18 @@
     "setting": {
         "compileHotReLoad": true,
         "urlCheck": false
+    },
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "",
+                    "pathName": "pages/newsDetail/newsDetail",
+                    "query": "id=63c38e81e1a35ce43a2689e4",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
     }
 }

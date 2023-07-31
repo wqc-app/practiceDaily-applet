@@ -31,7 +31,9 @@ Component({
     methods: {
         jumpDetail(e){
             console.log('jump detail' ,e);
-            console.log('id' , e.currentTarget.dataset.id);
+            wx.navigateTo({
+              url: '/pages/newsDetail/newsDetail?id=' + e.currentTarget.dataset.id,
+            })
             
         }
     }
