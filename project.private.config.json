@@ -14,6 +14,13 @@
                     "query": "id=63c38e81e1a35ce43a2689e4",
                     "launchMode": "default",
                     "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/classify/classify",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
                 }
             ]
         }

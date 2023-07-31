@@ -1,0 +1,33 @@
+<view class="product">
+    <view class="top">
+        <image class="img" src="{{product.picpath}}" mode="aspectFill"/>
+    </view>
+    <view class="content">
+        <view class="title">{{product.title}}</view>
+        <view class="row">
+            <view class="name">货号</view>
+            ：
+            <view class="value">{{product.pronum}}</view>
+        </view>
+        <view class="row">
+            <view class="name">等级</view>
+            ：
+            <view class="value">{{product.grade}}</view>
+        </view>
+        <view class="row">
+            <view class="name">年份</view>
+            ：
+            <view class="value">{{product.year}}</view>
+        </view>
+        <view class="row">
+            <view class="name">净含量</view>
+            ：
+            <view class="value">{{product.weight}}</view>
+        </view>
+        <view class="row">
+            <view class="name">零售价</view>
+            ：
+            <view class="value">{{product.price}}</view>
+        </view>
+    </view>
+</view>

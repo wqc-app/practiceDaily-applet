@@ -25,3 +25,11 @@ export function getNewsDetailDataRequest(data) {
         data
     });
 }
+
+export function getProductDataRequest(data) {
+    return request({
+        url: '/product/getlist',
+        method: "post",
+        data
+    });
+}

@@ -40,8 +40,11 @@
       "self-header" : "/components/self-header/self-header",
       "self-news-item" : "/components/self-news-item/self-news-item",
       "self-footer" : "/components/self-footer/self-footer",
+      "self-product-item" : "/components/self-product-item/self-product-item",
       "van-icon": "@vant/weapp/icon/index",
       "van-loading": "@vant/weapp/loading/index",
-      "van-skeleton": "@vant/weapp/skeleton/index"
+      "van-skeleton": "@vant/weapp/skeleton/index",
+      "van-tab": "@vant/weapp/tab/index",
+      "van-tabs": "@vant/weapp/tabs/index"
   }
 }

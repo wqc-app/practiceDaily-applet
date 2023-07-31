@@ -1,1 +1,13 @@
 <self-header></self-header>
+<view class="navTab">
+    <van-tabs  bind:click="navTabClick"  border color="#00aeec" title-active-color="#00aeec">
+       <van-tab title="{{item.classname}}" wx:for="{{navList}}" wx:key="_id"></van-tab>
+    </van-tabs>
+</view>
+<view class="content">
+    <self-product-item class="self-product-item" wx:for="{{productList}}" wx:key="_id" product="{{item}}"></self-product-item>
+</view>
+<view class="loading">
+    <van-loading size="24px" wx:if="{{loading}}">加载中...</van-loading>
+    <view class="noData" wx:if="{{noData}}">没有更多数据~</view>
+</view>

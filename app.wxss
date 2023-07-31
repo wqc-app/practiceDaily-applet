@@ -3,3 +3,14 @@ page{
     --fontColor : #1a1b1c;
     --garyColor : gray;
 }
+
+.loading{
+    text-align: center;
+    padding-bottom: 40rpx;
+   
+}
+
+.loading .noData{
+    font-size: 30rpx;
+    color: gray;
+}
