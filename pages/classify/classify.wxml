@@ -1,6 +1,6 @@
 <self-header></self-header>
 <view class="navTab">
-    <van-tabs  bind:click="navTabClick"  border color="#00aeec" title-active-color="#00aeec">
+    <van-tabs id="tabs"  bind:click="navTabClick" active="{{navIndex}}"  border color="#00aeec" title-active-color="#00aeec">
        <van-tab title="{{item.classname}}" wx:for="{{navList}}" wx:key="_id"></van-tab>
     </van-tabs>
 </view>

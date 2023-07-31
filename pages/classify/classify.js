@@ -15,6 +15,7 @@ Page({
         "size": 0, //分页（过滤的个数）
         navList : [],
         navId : "",
+        navIndex : 0,
         productList : []
     },
 
@@ -22,6 +23,14 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad(options) {
+        console.log('load' , options);
+        let navIndex = options.navIndex;
+        if(navIndex){
+            navIndex= parseInt(navIndex);
+            this.setData({
+                navIndex 
+            })
+        }
         this.getNavData();
     },
 
@@ -30,7 +39,7 @@ Page({
             console.log('classify getNavData' , res);
             this.setData({
                 navList : res.data.data,
-                navId : res.data.data[0]._id
+                navId : res.data.data[this.data.navIndex]._id
             })
             this.getProductData();
         })

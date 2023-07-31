@@ -59,6 +59,14 @@ Page({
         })
     },
 
+    jumpNavType(e){
+        console.log('jumpNavType', e);
+        let index = e.currentTarget.dataset.index;
+        wx.reLaunch({
+          url: '/pages/classify/classify?navIndex=' + index,
+        })
+    },
+
     /**
      * 生命周期函数--监听页面初次渲染完成
      */

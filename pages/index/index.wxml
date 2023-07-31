@@ -26,7 +26,7 @@
 
 <view class="scrollNav">
     <scroll-view  scroll-x>
-        <view class="item" wx:for="{{NavList}}" wx:key="_id" >
+        <view class="item" bindtap="jumpNavType" data-index="{{index}}"  wx:for="{{NavList}}" wx:key="_id" >
             <view class="pic"><image src="{{item.icon}}" mode=""/></view>
             <view class="name">{{item.classname}}</view>
         </view>
